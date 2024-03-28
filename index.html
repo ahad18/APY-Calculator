@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="cal-container">
+    <div class="body-tb8">
+      <div class="form-laa form-ano">
+        <form class="form-p4l">
+          <div class="block-tx8">
+            <label for="Dollar-Value-of-Crypto-Tokens-2" class="cal-35l">
+              Dollar Value of Crypto Tokens
+            </label>
+            <input
+              type="number"
+              class="input-dhd input-t1r"
+              name="Dollar-Value-of-Crypto-Tokens-2"
+              placeholder="100,000.00"
+              id="principal"
+            />
+            <div class="input-82h pointer-events-wm1">USD</div>
+          </div>
+          <div class="block-tx8">
+            <label for="Staking-APY-2" class="cal-35l"> Staking APY% </label>
+            <input
+              type="number"
+              class="input-dhd right-percent-vhr input-t1r"
+              name="Staking-APY-2"
+              placeholder="10"
+              id="apy"
+            />
+            <div class="input-82h pointer-events-wm1">%</div>
+          </div>
+          <div class="block-tx8">
+            <label for="Number-Of-Years-2" class="cal-35l">
+              Number Of Years
+            </label>
+            <input
+              type="number"
+              class="input-dhd right-otn input-t1r"
+              name="Number-Of-Years-2"
+              placeholder="1"
+              id="duration"
+            />
+            <div class="input-82h pointer-events-wm1">Years(s)</div>
+          </div>
+          <input class="button-wzk" onclick="calculate()" type="button" value="CalculateAPY" />
+        </form>
+      </div>
+    </div>
+</div>
+<div class="cal-container">
+    <div class="Container-calcultion-result">
+      <div class="calcultion-result">
+        
+        <div class="calculations-result-2">
+          <div class="body-calculation-2">
+            <div class="main-ari">
+                <div class="block-tva-1">
+                    <div class="cal-sy5">
+                      <div id="w-n-dkd" class="cal-48f">$</div>
+                      <div id="totalInterest" class="cal-48f">
+                        <div id="totalInterest">00.00</div>
+                      </div>
+                    </div>
+                    <div>Total Interest</div>
+                  </div>
+                
+              <div class="block-tva-2">
+                <div class="cal-sy5">
+                  <div id="w-n-dkd" class="cal-48f">$</div>
+                  <div id="futureValue" class="cal-48f">
+                    <div id="futureValue">00.00</div>
+                  </div>
+                </div>
+                <div>Future Value</div>
+              </div>
+            </div>
+           
+            <div class="main-yearly-result">
+                <div class="main-yearly-result-1">
+                    
+                    <div class="main-yearly-heading">Time</div>
+                    <div class="main-yearly-heading">Minute</div>
+                    <div class="main-yearly-heading">Hourly</div>
+                    <div class="main-yearly-heading">Daily</div>
+                    <div class="main-yearly-heading">Weekly</div>
+                    <div class="main-yearly-heading">Monthly</div>
+                    <div class="main-yearly-heading">Yearly</div>
+                </div>
+                <div class="main-yearly-result-2">
+                    <div>Dollar Return</div>
+                     <div id="minuteValue">--</div>
+                     <div id="hourlyValue">--</div>
+                     <div id="dailyValue">--</div>
+                     <div id="weeklyValue">--</div>
+                     <div id="monthlyValue">--</div>
+                     <div id="yearlyValue">--</div>
+                 </div>
+              </div>
+            </div>
+           
+
+          </div>
+        </div>
+      </div>
+     
+      
+    </div>
+  </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
